@@ -1,2 +1,0 @@
-[endstone]
-jwbossscore = jwbossscore.main:JWBossScore
