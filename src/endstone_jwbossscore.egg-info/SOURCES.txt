@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/endstone_jwbossscore.egg-info/PKG-INFO
+src/endstone_jwbossscore.egg-info/SOURCES.txt
+src/endstone_jwbossscore.egg-info/dependency_links.txt
+src/endstone_jwbossscore.egg-info/entry_points.txt
+src/endstone_jwbossscore.egg-info/requires.txt
+src/endstone_jwbossscore.egg-info/top_level.txt
+src/jwbossscore/__init__.py
+src/jwbossscore/main.py
+src/jwbossscore/handlers/__init__.py
+src/jwbossscore/handlers/bossbar_handler.py
+src/jwbossscore/handlers/scoreboard_handler.py
+src/jwbossscore/resources/bossbar.yml
+src/jwbossscore/resources/scoreboard.yml

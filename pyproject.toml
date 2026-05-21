@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endstone-jwbossscore"
+version = "1.0.0"
+description = "Scoreboard and Bossbar plugin using JWPlaceholderAPI"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "JWDev" }]
+requires-python = ">=3.12"
+dependencies = ["endstone>=0.11.3", "pyyaml>=6.0"]
+
+[project.entry-points."endstone"]
+jwbossscore = "jwbossscore.main:JWBossScore"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+jwbossscore = ["resources/*.yml"]
